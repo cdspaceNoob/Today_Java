@@ -11,7 +11,8 @@ public class Basic03 {
 		int startDay = 3%7;
 		int lastDay = 31;
 		
-		//String days = "\t일 \t월 \t화 \t수 \t목 \t금 \t토";
+		// 요일은 하드코딩하는 것이 오히려 안정적이겠다 
+		// String days = "\t일 \t월 \t화 \t수 \t목 \t금 \t토";
 		
 		System.out.println("\t \t \t"+year+"년 "+month+"월");
 		//System.out.println(days);
@@ -28,8 +29,10 @@ public class Basic03 {
 			}
 		}
 		
-		
-		/*
+		for(int k=0; k<10; k++) {
+			;
+		}
+		/* 처음은 하드코딩부터 시작한다
 		System.out.println("\t1 \t2 \t3 \t4 \t5 \t6 \t7");
 		System.out.println("\t8 \t9 \t10 \t11 \t12 \t13 \t14");
 		System.out.println("\t15 \t16 \t17 \t18 \t19 \t20 \t21");
